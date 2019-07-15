@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import { Form, Icon, Input, Button, message } from 'antd'
-
 import memoryUtils from '../../utils/memoryUtils'
 import storageUtils from '../../utils/storageUtils'
 import { reqLogin } from '../../api'
@@ -9,8 +8,6 @@ import logo from './images/logo.png'
 import './login.less'
 
 const Item = Form.Item
-
-class Login extends Component {
 
 
   handleSubmit = e => {
